@@ -1,11 +1,11 @@
 <RCC>
     <qresource prefix="/">
         <file>main.qml</file>
-        <file>../../Downloads/Project/Background.jpg</file>
-        <file>../../Downloads/phone.png</file>
-        <file>../../Downloads/Navi..png</file>
-        <file>../../Downloads/Settings...png</file>
-        <file>../../Downloads/Media.png</file>
-        <file>../../Downloads/Radio.png</file>
+        <file>Images/Media.png</file>
+        <file>Images/Navi..png</file>
+        <file>Images/phone.png</file>
+        <file>Images/Radio.png</file>
+        <file>Images/Settings...png</file>
+        <file>Images/Background.jpg</file>
     </qresource>
 </RCC>

@@ -14,7 +14,7 @@ Window {
         anchors.fill: parent
         width: root.width
         height: root.height
-        source: "qrc:/../../Downloads/Project/Background.jpg"
+        source: "qrc:/Images/Background.jpg"
     }
 
 
@@ -47,7 +47,7 @@ Window {
                 anchors.fill: parent
                 fillMode: Image.PreserveAspectFit
                 cache: false
-                source: "qrc:/../../Downloads/Radio.png"
+                source: "qrc:/Images/Radio.png"
             }
             Image {
                 id: mediaIcon
@@ -56,7 +56,7 @@ Window {
                 anchors.leftMargin: root.width/3
                 fillMode: Image.PreserveAspectFit
                 cache: false
-                source: "qrc:/../../Downloads/Media.png"
+                source: "qrc:/Images/Media.png"
             }
             Image {
                 id: phoneIcon
@@ -64,7 +64,7 @@ Window {
                 anchors.leftMargin: root.width/3
                 fillMode: Image.PreserveAspectFit
                 cache: false
-                source: "qrc:/../../Downloads/phone.png"
+                source: "qrc:/Images/phone.png"
             }
             Image {
                 id: naviIcon
@@ -73,7 +73,7 @@ Window {
                 anchors.rightMargin: root.width/2
                 fillMode: Image.PreserveAspectFit
                 cache: false
-                source: "qrc:/../../Downloads/Navi..png"
+                source: "qrc:/Images/Navi..png"
             }
             Image {
                 id: settingsIcon
@@ -83,7 +83,7 @@ Window {
                 anchors.leftMargin: root.width/3
                 fillMode: Image.PreserveAspectFit
                 cache: false
-                source: "qrc:/../../Downloads/Settings...png"
+                source: "qrc:/Images/Settings...png"
             }
         }
     }
