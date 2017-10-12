@@ -13,22 +13,13 @@ int getMainWindowWidth(QByteArray& byteArray);
 int main(int argc, char *argv[])
 {
     QGuiApplication app(argc, argv);
-    QFile fileReader("configuration.txt");
+    QFile fileReader("C:\\QtExamples\\configuration");
 
-    int mainWindowHeight;
-    int mainWindowWidth;
+    int mainWindowHeight = 600;
+    int mainWindowWidth = 600;
 
-    std::cout << "file error string " << fileReader.errorString().toStdString().c_str() << std::endl;
-    if (fileReader.exists() == false)
-    {
-        std::cout << "file does not exists" << std::endl;
-    }
     if (fileReader.open(QIODevice::ReadOnly | QIODevice::Text) == true)
     {
-        std::cout << "Read Failed" << std::endl;
-        fileReader.close();
-
-        while (fileReader.atEnd())
         {
             QByteArray line = fileReader.readLine();
             mainWindowHeight = getMainWindowHeight(line);
@@ -54,11 +45,12 @@ int main(int argc, char *argv[])
 
 int getMainWindowWidth(QByteArray& byteArray)
 {
-    return std::stoi(std::string(byteArray.data()));
+    return std::stoi(QString(byteArray).toStdString());
 }
 
 
 int getMainWindowHeight(QByteArray& byteArray)
 {
-    return std::stoi(std::string(byteArray.data()));
+    int value = std::stoi(QString(byteArray).toStdString());
+    return value;
 }
