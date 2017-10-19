@@ -1,0 +1,13 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>Images/Background.jpg</file>
+        <file>Images/Forward right.jpg</file>
+        <file>Images/Forword left.ico</file>
+        <file>Images/Home.png</file>
+        <file>Images/Music Main.png</file>
+        <file>Images/Play-Stop-Pause-Step-Forward.ico</file>
+        <file>Images/Stop1Pressed.png</file>
+        <file>Images/Forward Rt.jpg</file>
+    </qresource>
+</RCC>
