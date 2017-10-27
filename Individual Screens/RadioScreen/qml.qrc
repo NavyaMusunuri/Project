@@ -1,8 +1,0 @@
-<RCC>
-    <qresource prefix="/">
-        <file>main.qml</file>
-        <file>Images/Background.jpg</file>
-        <file>Images/BigWirecastIcon2.png</file>
-        <file>Images/Home.png</file>
-    </qresource>
-</RCC>
